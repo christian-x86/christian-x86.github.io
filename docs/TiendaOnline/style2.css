@@ -1,0 +1,90 @@
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #212121;
+	color: rgb(230,230,230);
+}
+
+@font-face {
+  	font-family: 'BigNoodleTooOblique';
+  	src: URL('/TiendaOnline/productos/bignoodletoo.ttf') format('truetype');
+}
+
+.precio{
+	font-family: 'BigNoodleTooOblique';
+	font-size: 40px;
+
+}
+
+.card{
+	background-color: #383838;
+}
+
+#cabecera{
+	background-color: gainsboro;
+	border-radius: 7px;
+	margin: 1.2%;
+}
+
+#cabecera > h1{
+	padding: 2%;
+	padding-bottom: 0%;
+}
+
+#cabecera > p{
+padding: 2%;
+padding-top: 0%;
+}
+
+.navbar-custom {
+	background-color: rgb(94, 155, 255);
+	border-radius: 7px;
+	margin: 1.2%;
+}
+
+.navbar-brand.brand-alfa{
+	color: black;	
+}
+
+.navbar-brand.brand-alfa:hover{
+	color: rgb(255,255,255);
+}
+
+label{
+	margin-bottom: 0px;
+}
+
+.footer-alfa{
+	background-color: rgb(94, 155, 255);
+	margin: 1%;
+	border-radius: 7px;
+}
+
+form > p {
+	margin-top: 20px;
+	padding-left: 0px; 
+}
+
+.form-control-custom{
+	max-width: 300px;
+}
+
+.btn-custom{
+	margin-top: 25px;
+}
+
+#sesion{
+	color: black;
+	font-weight: normal;
+}
+
+.p-div{
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+.p-div1{
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
