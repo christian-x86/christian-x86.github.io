@@ -2,3 +2,11 @@ body{
   background-color: gray;
   font-family: 'Roboto',helvetica,arial,sans-serif;
 }
+
+.form-control, .form-select{
+    margin:7px 0px 20px 0px;
+}
+
+.container{
+    margin: 5% auto 10% auto;
+}
