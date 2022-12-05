@@ -1,6 +1,6 @@
 body{
-  background-color: gray;
-  font-family: 'Roboto',helvetica,arial,sans-serif;
+    background-color: gray;
+    font-family: 'Roboto',helvetica,arial,sans-serif;
 }
 
 .form-control, .form-select{
@@ -12,5 +12,9 @@ body{
 }
 
 .col-md-8{
-  background-color: white;
+    background-color: white;
+}
+
+.col-md-2{
+    background-color: #11161c;
 }
