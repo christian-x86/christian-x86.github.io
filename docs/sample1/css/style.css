@@ -10,3 +10,7 @@ body{
 .container{
     margin: 5% auto 10% auto;
 }
+
+.col-md-8{
+  background-color: white;
+}
