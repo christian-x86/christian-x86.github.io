@@ -28,7 +28,7 @@ body{
 .col-lateral-l a, .col-lateral-r a{
     display: block;
     margin: auto;
-    text-align: center;
+    text-align: left;
     color: white;
     text-decoration: none;
 }
