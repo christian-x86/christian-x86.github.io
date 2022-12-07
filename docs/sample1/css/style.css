@@ -20,5 +20,6 @@ body{
 }
 
 .col-lateral a{
+    display: block;
     padding: 3em;
 }
