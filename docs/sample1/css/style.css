@@ -23,7 +23,7 @@ body{
     background-color: grey;
 }
 
-.col-lateral a{
+.col-lateral-l, .col-lateral-r a{
     display: block;
     margin: auto;
     text-align: center;
