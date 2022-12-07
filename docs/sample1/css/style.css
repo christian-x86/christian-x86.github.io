@@ -11,7 +11,11 @@ body{
     margin: 5% auto 10% auto;
 }
 
-.col-lateral{
+.col-lateral-l{
+    background-color: white;
+}
+
+.col-lateral-r{
     background-color: white;
 }
 
