@@ -36,6 +36,6 @@ body{
     text-decoration: none;
 }
 
-a:hover{
+.col-lateral-l a:hover, .col-lateral-r a:hover{
     background-color: #0d6efd;
 }
