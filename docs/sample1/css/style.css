@@ -28,3 +28,7 @@ body{
     margin: auto;
     text-align: center;
 }
+
+a:hover{
+    background-color: red;
+}
