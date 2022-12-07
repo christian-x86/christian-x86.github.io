@@ -21,5 +21,6 @@ body{
 
 .col-lateral a{
     display: block;
-    padding: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
