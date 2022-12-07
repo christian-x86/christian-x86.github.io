@@ -1,5 +1,5 @@
 body{
-    background-color: gray;
+    background-color: black;
     font-family: 'Roboto',helvetica,arial,sans-serif;
 }
 
@@ -11,10 +11,10 @@ body{
     margin: 5% auto 10% auto;
 }
 
-.col-md-8{
+.col-lateral{
     background-color: white;
 }
 
-.col-md-2{
-    background-color: #11161c;
+.col-central{
+    background-color: grey;
 }
