@@ -23,6 +23,7 @@ body{
 
 .col-central{
     background-color: grey;
+    padding: 2em;
 }
 
 .col-lateral-l a, .col-lateral-r a{
