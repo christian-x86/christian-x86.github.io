@@ -22,4 +22,5 @@ body{
 .col-lateral a{
     display: block;
     margin: auto;
+    text-align: center;
 }
