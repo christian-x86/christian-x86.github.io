@@ -29,8 +29,10 @@ body{
     display: block;
     margin: auto;
     text-align: center;
+    color: white;
+    text-decoration: none;
 }
 
 a:hover{
-    background-color: red;
+    background-color: #0d6efd;
 }
