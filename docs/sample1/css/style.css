@@ -13,6 +13,8 @@ body{
 
 .col-lateral-l{
     background-color: white;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .col-lateral-r{
