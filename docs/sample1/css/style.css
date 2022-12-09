@@ -73,4 +73,5 @@ body{
 .footer p{
     color: white;
     text-align: center;
+    margin: 0;
 }
