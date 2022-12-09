@@ -49,12 +49,12 @@ body{
 /* Bottom right text */
 .text-block {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    bottom: 0;
+    right: 0;
     background-color: rgba(0,0,0,0.75);
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0.5rem;
+    width: 100%;
 }
 
 .text-block h4{
