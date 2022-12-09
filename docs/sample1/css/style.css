@@ -60,3 +60,7 @@ body{
 .text-block h4{
     margin-top:0.5rem;
 }
+
+.text-block p{
+    margin-bottom:0.5rem;
+}
