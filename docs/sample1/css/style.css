@@ -68,3 +68,7 @@ body{
 .footer{
     background-color: #0d6efd;
 }
+
+.footer p{
+    color: white;
+}
