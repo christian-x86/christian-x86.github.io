@@ -36,7 +36,6 @@ body{
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    font-weight: 400;
 }
 
 .col-lateral-l a:hover, .col-lateral-r a:hover{
