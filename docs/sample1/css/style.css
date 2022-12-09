@@ -35,6 +35,8 @@ body{
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 600;
 }
 
 .col-lateral-l a:hover, .col-lateral-r a:hover{
