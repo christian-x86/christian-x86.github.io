@@ -42,7 +42,8 @@ body{
 
 /* Container holding the image and the text */
 .container-img {
-  position: relative;
+    position: relative;
+    margin: 1em;
 }
 
 /* Bottom right text */
