@@ -67,9 +67,10 @@ body{
 
 .footer{
     background-color: #363636;
-    padding: 2em;
+    padding: 1em;
 }
 
 .footer p{
     color: white;
+    text-align: center;
 }
