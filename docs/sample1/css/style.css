@@ -64,3 +64,7 @@ body{
 .text-block p{
     margin-bottom:0.5rem;
 }
+
+.footer{
+    background-color: #0d6efd;
+}
