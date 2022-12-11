@@ -1,3 +1,8 @@
+:root {
+    --button-color: rgba(40,49,58,0.75);
+    --button-color-hover: #0d6efd;
+}
+
 body{
     background-color: black;
     font-family: 'Roboto',helvetica,arial,sans-serif;
@@ -54,7 +59,7 @@ body{
     position: absolute;
     bottom: 0;
     right: 0;
-    background-color: rgba(40,49,58,0.75);
+    background-color: var(--button-color);
     color: white;
     padding-left: 0.5rem;
     width: 100%;
