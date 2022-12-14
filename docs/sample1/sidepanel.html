@@ -55,7 +55,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.7); /* Black background with opacity */
+  background-color: rgba(0,0,0,0.0); /* Black background with opacity */
   z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
 }
 
@@ -81,8 +81,9 @@ body {
 
 <script>
 function openNav() {
-document.getElementById("overlay").style.display = "block";
+  document.getElementById("overlay").style.display = "block";
   document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("overlay").style.background-color = "rgba(0,0,0,0.7)";
   
 }
 
