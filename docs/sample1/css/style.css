@@ -42,7 +42,7 @@ body{
 }
 
 .col-lateral-l a:hover, .col-lateral-r a:hover{
-    background-color: var(--button-color-hover);
+    background-color: var(--bs-blue);
 }
 
 /* Container holding the image and the text */
