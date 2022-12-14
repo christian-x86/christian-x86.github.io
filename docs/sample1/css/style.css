@@ -85,10 +85,8 @@ body{
     margin: 0;
 }
 
-@media screen and (max-width:767px){
+
 .navbar .navbar-collapse {
-  background: #f8f8f8;
-  position: absolute;
-  width: 100%;
+    position: absolute;
 }
-}
+
