@@ -48,16 +48,16 @@ body {
 
 #overlay {
   position: fixed; /* Sit on top of the page content */
-  display: none; /* Hidden by default */
+  display: block;
   width: 100%; /* Full width (cover the whole page) */
   height: 100%; /* Full height (cover the whole page) */
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.0); /* Black background with opacity */
-  z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
-  transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: -1; /* Specify a stack order in case you're using a different order for other elements */
+  transition: 0.4s;
 }
 
 </style>
@@ -82,19 +82,18 @@ body {
 
 <script>
 function openNav() {
-  document.getElementById("overlay").style.display = "block";
   document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("overlay").style.backgroundColor = "rgba(0,0,0,0.7)";
-  
+  document.getElementById("overlay").style.backgroundColor = "rgba(0,0,0,0.75)";
+  document.getElementById("overlay").style.zIndex = "1";
 }
 
 function closeNav() {
-  document.getElementById("overlay").style.display = "none";
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("overlay").style.backgroundColor = "rgba(0,0,0,0.0)";
-
+  document.getElementById("overlay").style.zIndex = "-1";
+  
 }
 </script>
    
 </body>
-</html> 
+</html>
