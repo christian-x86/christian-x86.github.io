@@ -31,15 +31,15 @@ includeHTML();
 // sidepanel
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
-  // document.getElementById("overlay").style.backgroundColor = "rgba(0,0,0,0.6)";
+  document.getElementById("overlay").style.backgroundColor = "rgba(0,0,0,0.6)";
   document.getElementById("overlay").style.zIndex = "1";
-  document.getElementById("overlay").style.backdropFilter = "blur(1.5px)";
+  
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
-  // document.getElementById("overlay").style.backgroundColor = "rgba(0,0,0,0.0)";
+  document.getElementById("overlay").style.backgroundColor = "rgba(0,0,0,0.0)";
   document.getElementById("overlay").style.zIndex = "-1";
-  document.getElementById("overlay").style.backdropFilter = "blur(0px)";
+  
   
 }
