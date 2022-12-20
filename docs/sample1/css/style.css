@@ -199,8 +199,7 @@ body{
   }
 
 /* bs icons*/
-/*  .bi-list{
-    -webkit-text-stroke: 0.75px;
+  .bi-list{
+    -webkit-text-stroke: 0.75px; /*bold icon*/
   }
-*/
 /*bs icons*/
