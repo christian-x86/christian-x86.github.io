@@ -86,7 +86,6 @@ body{
 }
 
 /* start collapse */
-
   .sidenav {
     height: 100%;
     width: 0;
@@ -139,7 +138,6 @@ body{
     z-index: -1; /* Specify a stack order in case you're using a different order for other elements */
     transition: 0.4s;
   }
-
   /* end collapse */
 
   /* edit navbar bootstrap css */
@@ -189,6 +187,7 @@ body{
     --bs-btn-hover-bg: #0b5ed7;
     font-weight: 900;
   }
+
   .navbar-toggler:hover{
     background-color: var(--bs-btn-hover-bg);
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
@@ -199,6 +198,11 @@ body{
     text-transform: uppercase;
   }
 
+/* bs icons*/
   .bi-list{
     -webkit-text-stroke: 0.75px;
   }
+  .bi{
+    vertical-align: middle;
+  }
+/*bs icons*/
