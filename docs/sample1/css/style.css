@@ -202,7 +202,8 @@ body{
   .bi-list{
     -webkit-text-stroke: 0.75px;
   }
-  .bi{
+
+  .bi::before{
     vertical-align: middle;
   }
 /*bs icons*/
