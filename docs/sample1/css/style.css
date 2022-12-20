@@ -172,10 +172,8 @@ body{
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-      /*
     border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
     border-radius: var(--bs-btn-border-radius);
-      */
     --bs-btn-color: #fff;
     --bs-btn-bg: #0d6efd;
     --bs-btn-border-color: #0d6efd;
@@ -198,6 +196,10 @@ body{
   .navbar-brand{
     font-weight: 700;
     text-transform: uppercase;
+  }
+
+  .navbar{
+    --bs-navbar-toggler-focus-width: 0;
   }
 
 /* bs icons*/
