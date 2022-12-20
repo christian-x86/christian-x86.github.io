@@ -203,7 +203,7 @@ body{
     -webkit-text-stroke: 0.75px;
   }
 
-  .bi-three-dots-vertical::before{
+  .bi::before{
     vertical-align: middle;
   }
 /*bs icons*/
