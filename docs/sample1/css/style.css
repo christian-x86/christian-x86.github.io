@@ -200,6 +200,7 @@ body{
 
   .navbar{
     --bs-navbar-toggler-focus-width: 0;
+    --bs-navbar-toggler-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   }
 
 /* bs icons*/
