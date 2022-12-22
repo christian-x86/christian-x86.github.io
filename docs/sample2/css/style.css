@@ -16,18 +16,15 @@ body{
     background-color: var(--color-grey-1);
     padding-left: 0;
     padding-right: 0;
-    margin: 1%;
 }
 
 .col-lateral-r{
     background-color: var(--color-grey-1);
-    margin: 1%;
 }
 
 .col-central{
     background-color: grey;
     padding: 2em;
-    margin: 1%;
 }
 
 .col-lateral-l a, .col-lateral-r a{
@@ -50,7 +47,6 @@ body{
 .footer{
     background-color: var(--color-grey-1);
     padding: 1em;
-    margin: 1%;
 }
 
 .footer p{
