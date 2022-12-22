@@ -14,8 +14,6 @@ body{
 
 .col-lateral-l{
     background-color: var(--color-grey-1);
-    padding-left: 0;
-    padding-right: 0;
 }
 
 .col-lateral-r{
