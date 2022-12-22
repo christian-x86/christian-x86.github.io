@@ -14,18 +14,18 @@ body{
 
 .col-lateral-l{
     background-color: var(--color-grey-1);
-    margin: 0.5em;
+    margin: 0.2em;
 }
 
 .col-lateral-r{
     background-color: var(--color-grey-1);
-    margin: 0.5em;
+    margin: 0.2em;
 }
 
 .col-central{
     background-color: grey;
     padding: 2em;
-    margin: 0.5em;
+    margin: 0.2em;
 }
 
 .col-lateral-l a, .col-lateral-r a{
@@ -48,7 +48,7 @@ body{
 .footer{
     background-color: var(--color-grey-1);
     padding: 1em;
-    margin: 0.5em;
+    margin: 0.2em;
 }
 
 .footer p{
