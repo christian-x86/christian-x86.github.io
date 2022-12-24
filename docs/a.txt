@@ -1,1 +1,1 @@
-https://stackoverflow.com/questions/26807960/bootstrap-navbar-menu-overlaps-text
+https://stackoverflow.com/questions/71428634/elements-hide-behind-fixed-top-navbar-bootstrap
