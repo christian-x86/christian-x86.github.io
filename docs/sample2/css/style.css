@@ -8,9 +8,9 @@ body{
     font-family: 'Roboto',helvetica,arial,sans-serif;
 }
 
-/*.container-fluid{
-    
-}*/
+.container-fluid{
+    margin-top: 40px
+}
 
 .col-lateral-l{
     background-color: var(--color-grey-1);
