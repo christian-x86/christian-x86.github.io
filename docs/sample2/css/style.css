@@ -45,6 +45,7 @@ body{
 .footer{
     background-color: var(--color-grey-1);
     padding: 1em;
+    margin-top: 12px;
 }
 
 .footer p{
