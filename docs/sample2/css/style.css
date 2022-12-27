@@ -11,16 +11,12 @@ body{
 .principal{
     margin-top: 56px;
 }
-/*
+
 .col-lateral-l{
     background-color: var(--color-grey-1);
 }
 
 .col-lateral-r{
-    background-color: var(--color-grey-1);
-}
-*/
-.columna{
     background-color: var(--color-grey-1);
 }
 
