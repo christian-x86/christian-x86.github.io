@@ -51,7 +51,7 @@ function time() {
   
   var final = String(hour)+":"+String(minute)+":"+String(second);
   console.log(final);
-  document.getElementById("time").innerHTML = final;
+  document.getElementById("time").innerHTML = "["+final+"]";
   var timeout = setTimeout(time, 1000); // recalls the function after 1000 ms
 }
 time();
