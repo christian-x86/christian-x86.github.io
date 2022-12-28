@@ -48,6 +48,9 @@ function time() {
   let hour = objectDate.getHours();
   let minute = objectDate.getMinutes();
   let second = objectDate.getSeconds();
-  document.getElementById("time").innerHTML = String(hour)+":"+String(minute)+":"+String(second);
+  
+  var final = String(hour)+":"+String(minute)+":"+String(second);
+  console.log(final);
+  //document.getElementById("time").innerHTML = 
 }
 time();
