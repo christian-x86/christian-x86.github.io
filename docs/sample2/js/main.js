@@ -43,8 +43,10 @@ function closeNav() {
 
 // date
 function time() {
-  let fecha = new Date()
+  let objectDate = new Date()
   let day = objectDate.getDate();
+  document.getElementById("time").innerHTML = day;
+
   console.log(day);
 }
 time();
