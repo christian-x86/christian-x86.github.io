@@ -45,7 +45,11 @@ function closeNav() {
 function time() {
   let objectDate = new Date()
   let day = objectDate.getDate();
+  let hour = objectDate.getHours();
+  let minute = objectDate.getMinutes();
+  let second = objectDate.getSeconds();
 
-  console.log(day);
+  console.log(day+hour);
+  console.log(toString(day)+toString(hour));
 }
 time();
