@@ -45,7 +45,7 @@ function closeNav() {
 function time() {
   let objectDate = new Date()
   let day = objectDate.getDate();
-  document.getElementById("time").innerHTML = day;
+  document.getElementById("time").innerHTML = toString(day);
 
   console.log(day);
 }
