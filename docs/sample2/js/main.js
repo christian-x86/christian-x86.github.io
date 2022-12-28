@@ -47,3 +47,4 @@ function time() {
   let day = objectDate.getDate();
   console.log(day);
 }
+time();
