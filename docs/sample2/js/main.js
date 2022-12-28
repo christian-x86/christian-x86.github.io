@@ -50,7 +50,6 @@ function time() {
   let second = objectDate.getSeconds();
   
   var final = String(hour)+":"+String(minute)+":"+String(second);
-  console.log(final);
   document.getElementById("time").innerHTML = final;
   var timeout = setTimeout(time, 1000); // recalls the function after 1000 ms
 }
