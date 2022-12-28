@@ -33,19 +33,15 @@ function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
   document.getElementById("overlay").style.backgroundColor = "rgba(0,0,0,0.6)";
   document.getElementById("overlay").style.zIndex = "1";
-  
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("overlay").style.backgroundColor = "rgba(0,0,0,0.0)";
-  document.getElementById("overlay").style.zIndex = "-1";
-  
-  
+  document.getElementById("overlay").style.zIndex = "-1";  
 }
 
 // date
-
 function time() {
   let fecha = new Date()
   let day = objectDate.getDate();
