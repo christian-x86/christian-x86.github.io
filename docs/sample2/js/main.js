@@ -50,6 +50,6 @@ function time() {
   let second = objectDate.getSeconds();
 
   console.log(day+hour);
-  console.log(toString(day)+toString(hour));
+  console.log(String(day)+String(hour));
 }
 time();
